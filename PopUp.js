@@ -20,7 +20,7 @@ function ChangeInnerHTML(PopUpID, HTML)
 
 function ChangeBackgroundColor(PopUpID, Color)
 {
-    document.getElementById(PopUpID).style = Color
+    document.getElementById(PopUpID).style.backgroundColor = Color
 }
 
 function ChangeTextFont(PopUpID, Font)
